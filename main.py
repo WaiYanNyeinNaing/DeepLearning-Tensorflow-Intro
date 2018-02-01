@@ -21,7 +21,7 @@ x = tf.placeholder(tf.float32)             #input vector
 y = tf.placeholder(tf.float32)             #output vector
 
 #predict model
-predict = (W*x) + b
+predict = (W*x) + b                        #Linear algebra model
            
 #Calculate error & loss function
 square_error = tf.square(predict - y)
